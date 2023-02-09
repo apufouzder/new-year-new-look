@@ -164,18 +164,16 @@ section {
 
 
 /* our blog section styles start */
+.blog-section{
+    padding-bottom: 0;
+}
 .blog-section .container h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 50px;
-
     text-align: center;
-
-    /* Dark 01 */
-
     color: #151414;
-
 }
 
 .blog-section .container .wrapper {
