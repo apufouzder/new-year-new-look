@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Work+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    padding: 20px 26px;
+    border-radius: 5px;
+    border: 0;
+    color: #005FAC;
+    cursor: pointer;
+}
+
+.subscribe-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    padding: 20px 26px;
+    border: 0;
+    color: #F3F3F3;
+    cursor: pointer;
+    background: #005FAC;
+    border-radius: 8px;
+}
+
+section {
+    padding: 130px 0;
+}
+
+/* header section styles start */
+.header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .container .wrapper {
+    padding: 260px 0;
+    text-align: end;
+}
+
+.header .container .wrapper h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.header .container .wrapper p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+/* header section styles end */
+
+/* about section styles start */
+.about-section {
+    padding-bottom: 0;
+}
+
+.about-section .container .wrapper {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+
+.about-section .container .wrapper .about-info h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.about-section .container .wrapper .about-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+
+.about-section .container .wrapper .about-info ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+/* about section styles start */
+
+/* services section styles start */
+.services-section {
+    padding-bottom: 0;
+}
+
+.services-section .container h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #151414;
+}
+
+.services-section .container .wrapper {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services-section .container .wrapper .service h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.services-section .container .wrapper .service p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* services section styles end */
+
+
+/* our blog section styles start */
+.blog-section .container h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+
+    text-align: center;
+
+    /* Dark 01 */
+
+    color: #151414;
+
+}
+
+.blog-section .container .wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.blog-section .container .wrapper .blog {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+
+.blog-section .container .wrapper .blog img {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.blog-section .container .wrapper .blog .blog-info {
+    padding: 20px;
+}
+.blog-section .container .wrapper .blog .blog-info strong {
+    color: #005FAC;
+}
+
+.blog-section .container .wrapper .blog .blog-info h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 16px 0;
+    color: #151414;
+}
+
+.blog-section .container .wrapper .blog .blog-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+
+/* our blog section styles end */
+
+
+/* newsletter section styles start */
+.newsletter-section .container .wrapper {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 64px;
+    height: 300px;
+}
+
+.newsletter-section .container .wrapper h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 60px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+/* newsletter section styles end */
+
+/* footer section styles start */
+footer {
+    background: #151414;
+}
+
+footer .container .wrapper {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+footer .container .wrapper .future h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+    color: #F8F8F8;
+
+}
+
+footer .container .wrapper .future p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+
+    color: #FFFFFF;
+
+}
+
+footer .container .wrapper .future .social {
+    display: flex;
+    gap: 5px;
+}
+
+footer .container .wrapper .future .social li {
+    list-style: none;
+}
+
+footer .container .wrapper .subscribe h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+footer .container .wrapper .subscribe form input {
+    padding: 21px;
+    display: block;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+    color: #F3F3F3;
+}
+
+/* footer section styles end */
